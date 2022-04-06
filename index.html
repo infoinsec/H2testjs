@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+  <link href="./styles.css" rel="stylesheet">
+  <title>H2testjs</title>
+</head>
+
+<body>
+  <!-- <header id="titlebar"></header> -->
+
+  <form style="
+  margin-left: -.33em;
+  padding-bottom: .25em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  ">
+    <div>
+      <input type="radio" id="Deutsch" name="language" value="Deutsch">
+      <label for="Deutsch">Deutsch</label><br>
+    </div>
+    <div>
+      <input type="radio" id="English" name="language" value="English">
+      <label for="English">English</label><br>
+    </div>
+  </form>
+
+  <div class="frame" style="height:3.4em">
+    <div style="
+    position:absolute;
+    margin-top:-1.2em;
+    margin-left:0px;
+    background-color:#f0f0f0">
+      <span>Target</span>
+    </div>
+    <div style="padding: .5em;">
+      D:\
+    </div>
+
+    <div>
+      <button style="display:block; margin:.25em; width:100%; box-sizing: border-box">Select target</button>
+      <button style="display:block; margin:.25em">Refresh</button>
+    </div>
+  </div>
+
+  <div class="frame">
+    <div style="
+    position:absolute;
+    margin-top:-1.2em;
+    margin-left:0px;
+    background-color:#f0f0f0">
+      <span>Data volume</span>
+    </div>
+
+    <form style="
+    margin-left: -.33em;
+    padding: .3em .28em 0em .28em;
+    ">
+      <div>
+        <input type="radio" id="all avaliable space" name="dataVolume" value="all avaliable space">
+        <label for="all avaliable space">all avaliable space</label>
+      </div>
+      <div style="height:.5em;"></div>
+      <div>
+        <input type="radio" id="onlyxMB" name="language" value="onlyxMB">
+        <label for="onlyxMB">only 
+          <input type="text">
+          MB
+        </label>
+      </div>
+    </form>
+
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+</body>
+
+</html>

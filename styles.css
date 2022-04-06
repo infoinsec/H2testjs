@@ -1,0 +1,33 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+
+* {
+    font-size: .91em;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    /* background-color: #f5f5f5; */
+}
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+    padding: .45em;
+    margin: 1em .25em;
+    box-shadow: 0px 0px 1px 0px #909090;
+}
+
+input[type=radio], input.radio {
+    transform: scale(.91);
+    font-size: .91em;
+    margin-top: -.2em;
+    vertical-align: middle;
+}
+
+label {
+    font-size: .91em;
+    margin-left: -.65em;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "H2testjs",
+  "productName": "H2testjs",
+  "description": "js clone of H2testw",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "alexb",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^18.0.1",
+    "electron-reloader": "^1.2.3"
+  }
+}
