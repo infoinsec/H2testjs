@@ -11,12 +11,12 @@
 
 <body>
   <!-- <header id="titlebar"></header> -->
-
+<div style="height: fit-content;">
   <form style="
   margin-left: -.33em;
   padding-bottom: .25em;
   display: grid;
-  grid-template-columns: 1fr 1fr 4fr;
+  grid-template-columns: 1fr 1fr 3fr;
   ">
     <div>
       <input type="radio" id="Deutsch" name="language" value="Deutsch">
@@ -42,7 +42,7 @@
 
     <div>
       <button style="display:block; margin:.25em; width:100%; box-sizing: border-box">Select target</button>
-      <button style="display:block; margin:.25em">Refresh</button>
+      <button id="refresh" style="display:block; margin:.25em">Refresh</button>
     </div>
   </div>
 
@@ -67,12 +67,12 @@
       <div>
         <input type="radio" id="onlyxMB" name="language" value="onlyxMB">
         <label for="onlyxMB">only 
-          <input type="text">
+          <input id="input" type="text">
           MB
         </label>
       </div>
     </form>
-
+  </div>
   <!-- You can also require other files to run in this process -->
   <script src="./renderer.js"></script>
 </body>

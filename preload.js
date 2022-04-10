@@ -12,3 +12,9 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 })
 
+// const { contextBridge, ipcRenderer } = require('electron')
+
+// contextBridge.exposeInMainWorld('electronAPI', {
+//   testFunc: (testVar) => ipcRenderer.send('testSignal', title),
+//   setZoom: (zoom) => ipcRenderer.send('setZoom', zoom)
+// })
