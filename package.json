@@ -4,10 +4,11 @@
   "description": "js clone of H2testw",
   "keywords": [],
   "main": "./main.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "alexb",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "push": "git add . && git commit -m \"update\" && git push"
   },
   "devDependencies": {
     "electron": "^18.0.1",
