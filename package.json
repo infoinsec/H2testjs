@@ -5,10 +5,11 @@
   "keywords": [],
   "main": "./main.js",
   "bin": "electron .",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "author": "alexb",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "push": "git add . && git commit -m \"update\" && git push"
   },
   "devDependencies": {
     "electron": "^18.0.1",

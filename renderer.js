@@ -58,4 +58,4 @@ window.addEventListener('wheel', (ev) => {
     }
 });
 
-document.getElementById('input').value = window.innerWidth + 'x' + window.innerHeight +'y'
+document.getElementById('input').value = 'version 1.0.2 baby!'
