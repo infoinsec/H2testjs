@@ -4,6 +4,7 @@
   "description": "js clone of H2testw",
   "keywords": [],
   "main": "./main.js",
+  "bin": "electron .",
   "version": "1.0.1",
   "author": "alexb",
   "scripts": {
