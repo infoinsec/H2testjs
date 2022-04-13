@@ -5,7 +5,7 @@
   "keywords": [],
   "main": "./main.js",
   "bin": "electron .",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "alexb",
   "scripts": {
     "start": "electron .",
